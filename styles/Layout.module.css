@@ -1,0 +1,32 @@
+.layoutTemplate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+}
+
+.layoutTemplate a {
+  color: #fff;
+  margin: 10px;
+}
+
+.contentBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
